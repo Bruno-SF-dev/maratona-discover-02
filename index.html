@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/styles/index.css">
+</head>
+<body>
+  <header>
+    <div class="initial">
+      <img src="./images/logo.svg" alt="Logo">
+      
+      <span class="freeTime"><img class="alert" src="./images/alert-octagon.svg" alt=""> Você tem 2 horas livres no seu dia</span>
+      
+      <div class="profile">
+        <div>
+          <span class="firstName">Jakeliny</span>
+          <a class="viewProfile" href="">Ver perfil</a>
+        </div>
+        <img class="avatar" src="https://avatars.githubusercontent.com/u/17316392?s=460&u=6912a91a70bc89745a2079fdcdad3bc3ce370f13&v=4" alt="">
+      </div>
+    </div>
+
+    <div class="projectsHistory">
+      <ul>
+        <li>
+          <div class="total">
+            <span class="amount">2</span>
+            <p class="projectType">Projetos ao total</p>
+          </div>
+        </li>
+        <li>
+          <div class="inProgress">
+            <span class="amount">1</span>
+            <p class="projectType">Em andamento</p>
+          </div>
+        </li>
+        <li>
+          <div class="fineshed">
+            <span class="amount">1</span>
+            <p class="projectType">Encerrado(s)</p>
+          </div>
+        </li>
+      </ul>
+
+      <a href="job.html"> <img src="/images/plus-orange.svg" alt="Ícone para adicionar um novo Job"> Adicionar novo job </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="projectContainer">
+      <div class="project">
+        <div class="about">
+          <span class="number">1</span>
+          <p class="projectName">Pizzaria Guloso</p>
+          </div>
+        <div class="projectDetails">
+          
+          <div>
+            <div class="deadline">
+              <span>Prazo</span>
+              <p>3 dias para a entrega</p>
+            </div>
+            <div class="price">
+              <span>valor</span>
+              <p>R$ 4500,00</p>
+            </div>
+          </div>
+          
+          <div class="situation">
+            <span class="inProgress">Em andamento</span>
+            <div class="options">
+              <button id="editProject"> <img src="./images/edit-24.svg" alt="Edit icon"> </button>
+              <button id="deleteProject"> <img src="./images/trash-24.svg" alt="Delete icon"> </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="project">
+        <div class="about">
+          <span class="number">1</span>
+          <p class="projectName">OneTwo Project</p>
+          </div>
+        <div class="projectDetails">
+          
+          <div>
+            <div class="deadline">
+              <span>Prazo</span>
+              <p>3 dias para a entrega</p>
+            </div>
+            <div class="price">
+              <span>valor</span>
+              <p>R$ 4500,00</p>
+            </div>
+          </div>
+          
+          <div class="situation">
+            <span class="fineshed">Encerrado</span>
+            <div class="options">
+              <button id="editProject"> <img src="./images/edit-24.svg" alt="Edit icon"> </button>
+              <button id="deleteProject"> <img src="./images/trash-24.svg" alt="Delete icon"> </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+    </section>
+    
+  </main>
+</body>
+</html>
