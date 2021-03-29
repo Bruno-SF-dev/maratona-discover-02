@@ -385,9 +385,6 @@ main {
     width: 160px;
   }
 
-  .projectsHistory ul li {
-  }
-
   .projectsHistory ul li div {
     margin: 0;
     display: flex;
