@@ -13,10 +13,11 @@
   />
   <link rel="stylesheet" href="/styles/index.css">
 </head>
+
 <body>
   <header>
     <div class="initial">
-      <img src="./images/logo.svg" alt="Logo">
+      <img id="topLogo" src="./images/logo.svg" alt="Logo">
       
       <span class="freeTime"><img class="alert" src="./images/alert-octagon.svg" alt=""> Você tem 2 horas livres no seu dia</span>
       
@@ -33,13 +34,13 @@
       <ul>
         <li>
           <div class="total">
-            <span class="amount">2</span>
+            <span class="amount">3</span>
             <p class="projectType">Projetos ao total</p>
           </div>
         </li>
         <li>
           <div class="inProgress">
-            <span class="amount">1</span>
+            <span class="amount">2</span>
             <p class="projectType">Em andamento</p>
           </div>
         </li>
@@ -51,7 +52,7 @@
         </li>
       </ul>
 
-      <a href="job.html"> <img src="/images/plus-orange.svg" alt="Ícone para adicionar um novo Job"> Adicionar novo job </a>
+      <a href="job.html"> <img id="plusOrange" src="/images/plus-orange.svg" alt="Ícone para adicionar um novo Job"> Adicionar novo job </a>
     </div>
   </header>
 
@@ -78,8 +79,8 @@
           <div class="situation">
             <span class="inProgress">Em andamento</span>
             <div class="options">
-              <button id="editProject"> <img src="./images/edit-24.svg" alt="Edit icon"> </button>
-              <button id="deleteProject"> <img src="./images/trash-24.svg" alt="Delete icon"> </button>
+              <button class="editProject" title="Editar Job" > <img src="./images/edit-24.svg" alt="Edit icon"> </button>
+              <button class="deleteProject" title="Deletar Job"> <img src="./images/trash-24.svg" alt="Delete icon"> </button>
             </div>
           </div>
         </div>
@@ -87,9 +88,40 @@
       
       <div class="project">
         <div class="about">
-          <span class="number">1</span>
+          <span class="number">2</span>
           <p class="projectName">OneTwo Project</p>
           </div>
+        
+        <div class="projectDetails">
+          
+          <div>
+            <div class="deadline">
+              <span>Prazo</span>
+              <p>6 dias para a entrega</p>
+            </div>
+            <div class="price">
+              <span>valor</span>
+              <p>R$ 4500,00</p>
+            </div>
+          </div>
+          
+          <div class="situation">
+            <span class="inProgress">Em andamento</span>
+            <div class="options">
+              <button class="editProject" title="Editar Job" > <img src="./images/edit-24.svg" alt="Edit icon"> </button>
+              <button class="deleteProject" title="Deletar Job"> <img src="./images/trash-24.svg" alt="Delete icon"> </button>
+            </div>
+          </div>
+        
+        </div>
+      </div>
+      
+      <div class="project">
+        <div class="about">
+          <span class="number">3</span>
+          <p class="projectName">OneTwoThree Project</p>
+          </div>
+        
         <div class="projectDetails">
           
           <div>
@@ -106,10 +138,11 @@
           <div class="situation">
             <span class="fineshed">Encerrado</span>
             <div class="options">
-              <button id="editProject"> <img src="./images/edit-24.svg" alt="Edit icon"> </button>
-              <button id="deleteProject"> <img src="./images/trash-24.svg" alt="Delete icon"> </button>
+              <button class="editProject" title="Editar Job" > <img src="./images/edit-24.svg" alt="Edit icon"> </button>
+              <button class="deleteProject" title="Deletar Job"> <img src="./images/trash-24.svg" alt="Delete icon"> </button>
             </div>
           </div>
+        
         </div>
       </div>
 
